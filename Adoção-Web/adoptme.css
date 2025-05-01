@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f8f8;
+    font-family: "DynaPuff";
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+#header{
+    background-color: rgb(111, 140, 173);
+    height: 100px;
+    color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "DynaPuff";
+}
+.patas{
+    height: 30px;
+    color: #f8f8f8;
+    margin: 15px;
+}
+h3{
+    margin-left: 10px;
+}
+form{
+    margin-left: 10px;
+}
+.tamanho{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+    margin-left: 10px;
+}
+
+#topo{
+    display: flex;
+    align-items: top;
+    
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+td{
+    width: 90px;
+    height: 10px;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+.botao {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "DynaPuff";
+    background-color: rgba(9, 170, 233, 0.363);
+    color:#f8f8f8;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.botao:hover{
+    background-color:rgba(88, 27, 231, 0.363);
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+#footer {
+    background-color: rgb(111, 140, 173);
+    height: 100px;
+    color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "DynaPuff";
+    font-size: 16px;
+    bottom: 0;
+}
+
+#home{
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+#home:hover{
+    color:rgba(88, 27, 231, 0.363);
+}
