@@ -41,3 +41,7 @@ Este site possui várias páginas interligadas, incluindo:
 ## Como visualizar
 
 Para ver o site, basta abrir o arquivo **index.html** em qualquer navegador.
+
+ou
+
+Acesse por aqui: https://isabelardg.github.io/Site-Adocao-Pets/
